@@ -7,6 +7,11 @@ module.exports = {
       dark: "#000929",
       light: "#F5F8FF",
     },
+
+    fontFamily: {
+      futura: "'futura-pt', system-ui, sans-serif",
+    },
+
     extend: {},
   },
   plugins: [
