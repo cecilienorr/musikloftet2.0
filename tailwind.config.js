@@ -10,6 +10,20 @@ module.exports = {
 
     fontFamily: {
       futura: "'futura-pt', system-ui, sans-serif",
+      londrina: "'Londrina Solid', system-ui, sans-serif",
+      londrinaOutline: "'Londrina Outline', system-ui, sans-serif",
+    },
+
+    fonSize: {
+      h1Desktop: ["144px"],
+      h2Desktop: ["39px"],
+      bodyDesktop: ["16px"],
+      testimonialsDesktop: ["17px", { lineHeight: "25px" }],
+
+      h1Mobile: ["90px"],
+      h2Mobile: ["25px"],
+      bodyMobile: ["14px"],
+      testimonials: ["14px"],
     },
 
     extend: {},
