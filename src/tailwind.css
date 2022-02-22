@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1 {
+    font-family: "Londrina Solid", cursive;
+  }
+
+  h2 {
+    font-family: "Londrina Outline", cursive;
+  }
+  p {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
