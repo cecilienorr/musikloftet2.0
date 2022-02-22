@@ -1,28 +1,570 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lokalerne</title>
-    <link rel="stylesheet" href="tailwind.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="flex place-content-between">
-        <figure>
-          <a href="index.html"
-            ><img class="w-3/12" src="img/Musikloftet_logo3_v2.svg" alt="Logo"
-          /></a>
-        </figure>
-        <ul class="m-4 flex">
-          <li class="px-10 py-2"><a href="lokaler.html">Lokalerne</a></li>
-          <li class="px-10 py-2"><a href="om.html">Om</a></li>
-          <li class="px-10 py-2"><a href="om.html#kontak">Kontakt</a></li>
-        </ul>
-      </nav>
-    </header>
-    <script type="module" src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Musikloftets lokaler</title>
+  <link rel="stylesheet" href="tailwind.css" />
+
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/mgo5cbf.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-light">
+  <header>
+    <nav class="flex place-content-between">
+      <figure>
+        <a href="index.html"><img class="w-3/12" src="img/Musikloftet_logo3_v2.svg" alt="Logo" /></a>
+      </figure>
+      <ul class="m-4 flex">
+        <li class="px-10 py-2"><a href="lokaler.html">Lokalerne</a></li>
+        <li class="px-10 py-2"><a href="om.html">Om</a></li>
+        <li class="px-10 py-2"><a href="om.html#kontak">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+
+    <h1>Find det rette lokale</h1>
+
+    <img src="img/stemningsbilleder/stemning-musikloftet-2.jpg" alt="">
+
+    <div class="w-1/2 p-20">
+      <p>Musikloftet har 8 hyggelige øvelokaler på øverste etage af en gammel industribygning på Prøvestenen i
+        København.
+      </p>
+      <p>Vi tilbyder tre typer lokaler, som alle er baggearslokaler: Ét lille lokale på 10m2, fire mellem lokaler (16-22
+        m2)
+        og tre store lokaler (33-36m2). Dertil er der fælles toilet på gangen og et lille fælleskøkken med tagterasse,
+        hvor
+        man kan nyde et glas om sommeren.</p>
+      <p>Lokalerne lejes for et tidsrum på tre timer én dag om ugen - nok til en god øver. Alle lokalerne er godt
+        støjdæmpede, og er udstyret med det nødvendige for at spille. Se udstyr og ledige tider i lokalebeskrivelserne
+        nedenfor.</p>
+    </div>
+
+    <div class="px-20">
+
+      <div class="flex gap-40 w-full">
+        <div class="flex flex-col basis-1/3 gap-5">
+          <h2 class="text-blue text-h2Desktop">Det lille lokale</h2>
+          <p>Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.</p>
+          <p>Det lille lokale koster 300/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale
+            er
+            løbende måned + 30 dage. </p>
+        </div>
+
+        <img class="grow w-1/2 h-auto justify-self-end" src="img/lille-lokale/lille lokale.jpg" alt="">
+      </div>
+    </div>
+
+
+
+    <div tabindex="0" class="collapse">
+      <input type="checkbox">
+      <div class="collapse-title px-20 text-blue">
+
+
+        <svg
+          class="transition transform hover:rotate-45 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+          class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2Z"></path>
+        </svg>
+
+      </div>
+      <div class="collapse-content bg-light">
+
+        <div class="px-20">
+
+          <div class="flex w-full gap-5">
+            <img class="grow w-1/4 h-auto" src="img/lille lokale/lille lokale.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/lille lokale/lille lokale.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/lille lokale/lille lokale.jpg" alt="">
+          </div>
+
+          <h2 class="py-5 text-h2Desktop">Lokalet er udstyret med:</h2>
+          <ul class="list-disc">
+            <li> stk. Bronco Deville 2X10 Guitarcombo</li>
+            <li>Snorx AC30C2 Basscombo</li>
+            <li>Korka 4-kanals sanganlæg</li>
+            <li>Mooga 6 oktavers keyboard</li>
+            <li> stk Castafiore vokalmikrofoner på stativ</li>
+            <li>6-spors Beckeringer mixer</li>
+          </ul>
+
+          <div class=" px-20 py-10 max-w-lg">
+            <table class="table rounded-none bg-light w-1/2">
+              <!-- head -->
+              <thead class="rounded-none">
+                <tr class="rounded-none">
+                  <th class="bg-light border-r-2 border-blue"></th>
+                  <th class="bg-light border-r-2 border-blue">Mandag</th>
+                  <th class="bg-light border-r-2 border-blue">Tirsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Onsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Torsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Fredag</th>
+                  <th class="bg-light border-r-2 border-blue">Lørdag</th>
+                  <th class="bg-light border-r-2 border-blue">Søndag</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr class="bg-light">
+                  <th class="bg-light border-r-2 border-blue">kl 9-12</th>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                  <th class="bg-light border-r-2 border-blue">kl 12-15</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+                <!-- row 3 -->
+                <tr class="bg-light border-r-2 border-blue">
+                  <th class="bg-light border-r-2 border-blue">kl 15-18</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+
+                <!-- row 4 -->
+                <tr class="bg-light">
+                  <th class="bg-light border-r-2 border-blue">kl 18-21</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+
+                <!-- row 5 -->
+                <tr class="bg-light border-r-2 border-blue">
+                  <th class="bg-light border-r-2 border-blue">kl 21-24</th>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+            <button class="rounded-none mt-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
+              <p class="text-blue uppercase">Book her</p>
+            </button>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!--mellem-->
+
+    <div class="px-20">
+
+      <div class="flex gap-40 w-full border-t-2 border-orange py-10">
+        <div class="flex flex-col basis-1/3 gap-5">
+          <h2 class="text-blue text-h2Desktop">Mellem lokaler</h2>
+          <p>De fire mellemstore lokaler er mellem 16 og 22m2, og er oplagt for mindre rockbands med trommer - typisk
+            tre-fire bandmedlemmer. </p>
+          <p>Et mellem lokale koster 500/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale
+            er løbende måned + 30 dage. </p>
+        </div>
+
+        <img class="grow w-1/2 h-auto justify-self-end" src="img/mellem-lokaler/mellem-1.jpg" alt="">
+      </div>
+    </div>
+
+
+
+    <div tabindex="0" class="collapse">
+      <input type="checkbox">
+      <div class="collapse-title px-20 text-blue">
+
+
+        <svg
+          class="transition transform hover:rotate-45 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+          class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2Z"></path>
+        </svg>
+
+      </div>
+      <div class="collapse-content bg-light">
+
+        <div class="px-20">
+
+          <div class="flex w-full gap-5">
+            <img class="grow w-1/4 h-auto" src="img/mellem-lokaler/mellem-lokale-band-1.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/mellem lokaler/mellem-lokale-band-2.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/mellem lokaler/mellem-lokale-band-3.jpg" alt="">
+          </div>
+
+          <h2 class="py-5">Lokalet er udstyret med:</h2>
+          <ul class="list-disc">
+            <li> stk. Bronco Deville 2X10 Guitarcombo</li>
+            <li>Snorx AC30C2 Basscombo</li>
+            <li>Korka 4-kanals sanganlæg</li>
+            <li>Mooga 6 oktavers keyboard</li>
+            <li> stk Castafiore vokalmikrofoner på stativ</li>
+            <li>6-spors Beckeringer mixer</li>
+          </ul>
+
+          <div class=" px-20 py-10 max-w-lg">
+            <table class="table rounded-none bg-light w-1/2">
+              <!-- head -->
+              <thead class="rounded-none">
+                <tr class="rounded-none">
+                  <th class="bg-light border-r-2 border-blue"></th>
+                  <th class="bg-light border-r-2 border-blue">Mandag</th>
+                  <th class="bg-light border-r-2 border-blue">Tirsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Onsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Torsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Fredag</th>
+                  <th class="bg-light border-r-2 border-blue">Lørdag</th>
+                  <th class="bg-light border-r-2 border-blue">Søndag</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr class="bg-light">
+                  <th class="bg-light border-r-2 border-blue">kl 9-12</th>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                  <th class="bg-light border-r-2 border-blue">kl 12-15</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+                <!-- row 3 -->
+                <tr class="bg-light border-r-2 border-blue">
+                  <th class="bg-light border-r-2 border-blue">kl 15-18</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+
+                <!-- row 4 -->
+                <tr class="bg-light">
+                  <th class="bg-light border-r-2 border-blue">kl 18-21</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+
+                <!-- row 5 -->
+                <tr class="bg-light border-r-2 border-blue">
+                  <th class="bg-light border-r-2 border-blue">kl 21-24</th>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+            <button class="rounded-none mt-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
+              <p class="text-blue uppercase">Book her</p>
+            </button>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <!--store -->
+
+    <div class="px-20">
+
+      <div class="flex gap-40 w-full border-t-2 border-orange py-10">
+        <div class="flex flex-col basis-1/3 gap-5">
+          <h2 class="text-blue text-h2Desktop">Store lokaler</h2>
+          <p>De tre store lokaler er mellem 33 og 36m2, så her er der plads til det helt store funk-band, og så er der
+            også en lille lounge-afdeling til at tage en chiller.</p>
+          <p>Et stort lokale koster 800/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale er
+            løbende måned + 30 dage. </p>
+
+        </div>
+
+        <img class="grow w-1/2 h-auto justify-self-end" src="img/store-lokaler/musikloftet-stort-lokale-1.jpg" alt="">
+      </div>
+    </div>
+
+
+
+    <div tabindex="0" class="collapse bg-light">
+      <input type="checkbox">
+      <div class="collapse-title px-20 text-blue bg-light">
+
+
+        <svg
+          class="transition transform hover:rotate-45 motion-reduce:transition-none motion-reduce:hover:transform-none"
+          xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+          class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+          <path fill="currentColor" d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2Z"></path>
+        </svg>
+
+      </div>
+      <div class="collapse-content bg-light m-0">
+
+        <div class="px-20 bg-light">
+
+          <div class="flex w-full gap-5">
+            <img class="grow w-1/4 h-auto" src="img/store-lokaler/stort-1.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/store-lokaler/stort-2.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/store-lokaler/stort-3.jpg" alt="">
+          </div>
+
+          <h2 class="py-5 text-h2Desktop">Lokalet er udstyret med:</h2>
+          <ul class="list-disc">
+            <li> stk. Bronco Deville 2X10 Guitarcombo</li>
+            <li>Snorx AC30C2 Basscombo</li>
+            <li>Korka 4-kanals sanganlæg</li>
+            <li>Mooga 6 oktavers keyboard</li>
+            <li> stk Castafiore vokalmikrofoner på stativ</li>
+            <li>6-spors Beckeringer mixer</li>
+          </ul>
+
+          <div class=" px-20 py-10 max-w-lg">
+            <table class="table rounded-none bg-light w-1/2">
+              <!-- head -->
+              <thead class="rounded-none">
+                <tr class="rounded-none">
+                  <th class="bg-light border-r-2 border-blue"></th>
+                  <th class="bg-light border-r-2 border-blue">Mandag</th>
+                  <th class="bg-light border-r-2 border-blue">Tirsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Onsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Torsdag</th>
+                  <th class="bg-light border-r-2 border-blue">Fredag</th>
+                  <th class="bg-light border-r-2 border-blue">Lørdag</th>
+                  <th class="bg-light border-r-2 border-blue">Søndag</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr class="bg-light">
+                  <th class="bg-light border-r-2 border-blue">kl 9-12</th>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                  <th class="bg-light border-r-2 border-blue">kl 12-15</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+                <!-- row 3 -->
+                <tr class="bg-light border-r-2 border-blue">
+                  <th class="bg-light border-r-2 border-blue">kl 15-18</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+
+                <!-- row 4 -->
+                <tr class="bg-light">
+                  <th class="bg-light border-r-2 border-blue">kl 18-21</th>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                </tr>
+
+                <!-- row 5 -->
+                <tr class="bg-light border-r-2 border-blue">
+                  <th class="bg-light border-r-2 border-blue">kl 21-24</th>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-orange border-r-2 border-blue">Optaget</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+            <button class="rounded-none mt-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
+              <p class="text-blue uppercase">Book her</p>
+            </button>
+
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+
+
+
+  <footer class=" bg-blue text-light p-10">
+
+    <div class="flex w-full ">
+
+      <ul class="basis-1/3 self-center">
+        <li class="flex gap-2 py-2">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16">
+            <path fill="currentColor"
+              d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6a3 3 0 0 1 0 6z"></path>
+          </svg>
+          <p>Bastionvej 2 Prøvestenen 2300 KBH S</p>
+        </li>
+        <li class="flex gap-2 py-2">
+
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8s8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5s2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47c.65.89 1.77 1.47 2.96 1.47c1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3s3 1.34 3 3s-1.34 3-3 3z">
+            </path>
+          </svg>
+          <p>info@musikloftet.dk</p>
+        </li>
+        <li class="flex gap-2 py-2">
+
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2Z">
+            </path>
+          </svg>
+          <p>
+            22 55 55 12</p>
+        </li>
+      </ul>
+
+
+      <ul class="flex self-end justify-center gap-5 basis-1/3">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--ion" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 512 512">
+            <path
+              d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64h-64z"
+              fill="currentColor"></path>
+          </svg>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--icon-park-outline" width="32" height="32"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48">
+            <g fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path stroke-width="4"
+                d="M11.063 10.414c5.544-.276 9.855-.414 12.935-.414s7.393.138 12.939.415a6 6 0 0 1 5.68 5.492c.254 3.034.38 5.706.38 8.017c0 2.339-.13 5.048-.389 8.128a6 6 0 0 1-5.587 5.483c-4.742.31-9.083.465-13.023.465c-3.94 0-8.28-.155-13.018-.465a6 6 0 0 1-5.587-5.48c-.264-3.103-.395-5.814-.395-8.131c0-2.29.128-4.963.385-8.02a6 6 0 0 1 5.68-5.49Z">
+              </path>
+              <path stroke-width="3.429"
+                d="M21 19.61v8.796a.857.857 0 0 0 1.33.715l6.597-4.36a.857.857 0 0 0 .006-1.427l-6.598-4.436a.857.857 0 0 0-1.335.711Z">
+              </path>
+            </g>
+          </svg>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z">
+            </path>
+          </svg>
+        </li>
+      </ul>
+
+      <div class="basis-1/4">
+        <img class="object-cover" src="img/maps.png" alt="">
+      </div>
+
+    </div>
+  </footer>
+  <script type="module" src="index.js"></script>
+</body>
+
 </html>
