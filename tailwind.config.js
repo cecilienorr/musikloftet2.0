@@ -14,7 +14,7 @@ module.exports = {
       londrinaOutline: "'Londrina Outline', system-ui, sans-serif",
     },
 
-    fonSize: {
+    fontSize: {
       h1Desktop: ["144px"],
       h2Desktop: ["39px"],
       bodyDesktop: ["16px"],
