@@ -16,6 +16,14 @@ module.exports = {
 
     fonSize: {
       h1Desktop: ["144px"],
+      h2Desktop: ["39px"],
+      bodyDesktop: ["16px"],
+      testimonialsDesktop: ["17px", { lineHeight: "25px" }],
+
+      h1Mobile: ["90px"],
+      h2Mobile: ["25px"],
+      bodyMobile: ["14px"],
+      testimonials: ["14px"],
     },
 
     extend: {},
