@@ -23,7 +23,7 @@ module.exports = {
       h1Mobile: ["90px"],
       h2Mobile: ["25px"],
       bodyMobile: ["14px"],
-      testimonials: ["14px"],
+      testimonialsMobile: ["14px"],
     },
 
     extend: {},
