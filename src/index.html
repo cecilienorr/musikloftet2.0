@@ -30,56 +30,61 @@
 
 <body class=" bg-light">
 
-  <body>
+  <body >
     <header>
       <nav class="flex place-content-between">
         <figure>
           <a href="index.html"><img class="w-3/12" src="img/Musikloftet_logo3_v2.svg" alt="Logo" /></a>
         </figure>
-        <ul class="m-4 flex">
-          <li class="px-10 py-2"><a href="lokaler.html">Lokalerne</a></li>
-          <li class="px-10 py-2"><a href="om.html">Om</a></li>
-          <li class="px-10 py-2"><a href="om.html#kontak">Kontakt</a></li>
+        <ul class="md:m-4 flex">
+          <li class="px-3 md:px-10 py-2"><a href="lokaler.html">Lokalerne</a></li>
+          <li class="px-3 md:px-10 py-2"><a href="om.html">Om</a></li>
+          <li class="px-3 md:px-10 py-2"><a href="om.html#kontak">Kontakt</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
-      <section id="section1">
-        <figure>
-          <img src="img/mellem lokaler/musikloftet-mellem-v2.jpg" alt="background pic" />
+    <main class="w-full">
+      <section id="section1" class="flex flex-col">
+        <figure >
+          <img class="absolute" src="img/mellem lokaler/musikloftet-mellem-v2.jpg" alt="background pic" />
         </figure>
-        <h1>Musikloftet</h1>
-        <div>arrow</div>
-        <button>Bestil lokale</button>
+        <div class="relative"> 
+        <h1 class="lg:text-h1Desktop text-h1Mobile text-light pt-32 lg:pt-96 pl-10">Musikloftet</h1>
+      </div>
+        <div class="self-center relative text-light">arrow</div>
+        <button class="fixed mt-64 border-2 bg-light p-2 self-end">Bestil lokale</button>
       </section>
-      <section id="section2">
-        <article>
-          <h2>Om musikloftet</h2>
-          <p>
+      <section id="section2" class="md:flex flex-row gap-9 md:mt-64 md:pl-72">
+        <article class="md:-mx-10 md:flex flex-col">
+          <h2 class="p-2 text-h2Desktop">Om musikloftet</h2>
+          <p class="p-2">
             Musikloftet er 8 hyggelige øvelokaler på toppen af Prøvestenen i
             København. Øvelokalerne ligger i en gammel industribygning, som
-            huser både kreative værksteder, atelierer og fotostudier.
+            huser både kreative værksteder, atelierer og fotostudier. md:mt-36 md:pt-24 md:grid grid-cols-2 gap-7 
           </p>
-          <button>Læs mere</button>
+          <button class="bg-light p-2 border-2 place-content-start m-10">Læs mere</button>
         </article>
-        <figure>
-          <img src="img/bygningen/musikloftet.jpeg" alt="Musikloftet" />
+        <figure class="flex">
+          <img class="w-8/12 self-center p-10" src="img/bygningen/musikloftet.jpeg" alt="Musikloftet" />
         </figure>
       </section>
       <section id="section3">
-        <figure>
-          <img src="img/stemningsbilleder/stemning-musikloftet-2.jpg" alt="Background pic" />
+        <figure >
+          <img class="absolute" src="img/stemning-musikloftet-2.webp" alt="Background pic" />
         </figure>
-        <h1>Tjek ledige lokaler</h1>
+        <h1 class="uppercase md:pt-28 relative text-light text-h1Mobile md:text-h1Desktop md:m-10">Tjek ledige lokaler</h1>
       </section>
-      <section id="section4">
-        <div>Arrow</div>
-        <figure>
-          <img src="img/lille lokale/lille lokale.jpg" alt="Lille lokale" />
+      <section id="section4" class="md:grid grid-cols-5 gap-10 md:mt-80 m-10 my-36">
+       
+        <figure class="flex flex-row p-2 col-span-2">
+          <div class="self-center">Arrow</div>
+          <img class="md:ml-32 w-9/12 p-2" src="img/lille lokale/lille lokale.jpg" alt="Lille lokale" />
+          <div class="self-center sm:hidden">Arrow</div>
         </figure>
-        <article>
-          <h2>Det store lokale</h2>
+       
+        <article class="flex flex-col p-10 col-span-2">
+          <h2 class="text-h2Desktop">Det store lokale</h2>
           <p>
             De tre store lokaler er mellem 33 og 36m2, så her er der plads til
             det helt store funk-band, og så er der også en lille lounge-afdeling
@@ -87,33 +92,43 @@
             timer én dag om ugen, og bindingsperioden for leje af et lokale er
             løbende måned + 30 dage.
           </p>
-          <button>Læs mere</button>
+          <button class="bg-light border-2 p-2 m-5">Læs mere</button>
         </article>
-        <div>Arrow</div>
+        <div class="md:self-center text-light md:text-dark">Arrow</div>
       </section>
       <section id="section5">
         <figure>
-          <img src="img/mellem lokaler/mellem-lokale-band-3.jpg" alt="Background pic" />
+          <img class="absolute" src="img/mellem-lokale-band-3.webp" alt="Background pic" />
         </figure>
-        <h1>Vores kunder elsker musikloftet</h1>
+        <h1 class="relative md:text-h1Desktop text-light uppercase p-24">Vores kunder elsker musikloftet</h1>
       </section>
-      <section id="section6">
-        <h2>Testimonials</h2>
-        <article>
+      <section id="section6" class="md:px-20 md:py-28">
+        <h2 class="md:text-h2Desktop text-h1Mobile text-blue">Testimonials</h2>
+       <div class="grid grid-cols-3 gap-10 p-10"> 
+        <div class="bg-blue absolute w-80 h-40 -pt-10"></div>
+        <article class="mt-4 ml-3 relative flex flex-col p-10 border-blue border-2 bg-light self-center">
+         
           <h4>
             "Musikloftet giver os nogle fed rammer til både at øve os og giver
             vores band et samlingspunkt
           </h4>
           <h4>- Sebastian, 25 år</h4>
         </article>
-        <article>
+        
+        <article class="flex flex-col p-10 border-blue border-2 bg-light self-center">
           <h4>
-            "Musikloftet giver os nogle fed rammer til både at øve os og giver
-            vores band et samlingspunkt
+            “Det er nice man kan booke lokalerne i perioder hvor vi har mere brug for at øve end andre” 
           </h4>
-          <h4>- Sebastian, 25 år</h4>
+          <h4>- Johanne, 28 år</h4>
         </article>
-        <div>arrow</div>
+        <article class="flex flex-col p-7 border-blue border-2 bg-light self-center">
+          <h4>
+            “Udover lokalet vi lejer er tagteressen også rigtig nice, og en fed mulighed for at møde andre musikere der gør brug af musikloftet.”
+          </h4>
+          <h4>- Hugo, 22 år</h4>
+        </article>
+        
+      </div>
       </section>
     </main>
     <footer class="">
