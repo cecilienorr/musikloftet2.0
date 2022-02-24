@@ -29,15 +29,26 @@
       <ul class="m-4 flex">
         <li class="px-10 py-2"><a href="lokaler.html">Lokalerne</a></li>
         <li class="px-10 py-2"><a href="om.html">Om</a></li>
-        <li class="px-10 py-2"><a href="om.html#kontak">Kontakt</a></li>
+        <li class="px-10 py-2"><a href="om.html#kontakt">Kontakt</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <img src="img/stemningsbilleder/stemning-musikloftet-3.jpg" alt="picture of guitar in black ad white">
-    <!-- <p>Om Musikloftet</p> -->
-    <h1 class=" text-h2Desktop text-center p-20 text-blue">Om Musikloftet</h1>
+
+    <section id="section1" class="flex flex-col md: pb-80">
+      <figure>
+        <img class="absolute" src="img/stemningsbilleder/stemning-musikloftet-3.jpg"
+          alt="picture of guitar in black ad white" />
+      </figure>
+      <div class="relative">
+        <h1 class="lg:text-h1Desktop text-h1Mobile text-light pt-32 lg:pt-96 pl-10"> Om Musikloftet</h1>
+      </div>
+      <div class="self-center relative text-light">arrow</div>
+      <button class="fixed mt-64 border-2 bg-light p-2 self-end">Bestil lokale</button>
+    </section>
+
+    <h1 class=" text-h2Desktop text-center p-20 text-blue pt-28">Om Musikloftet</h1>
 
     <div class="flex w-full pb-20">
       <img class="grow w-10 h-52" src="img/vertical-line.svg" alt="vertical line">
@@ -72,7 +83,14 @@
     </p>
 
 
-    <h1 class="text-h2Desktop text-blue text-center">Kontakt</h1>
+    <section id="kontakt" class="flex flex-col pb-28 md:pb-96">
+      <figure>
+        <img class="absolute" src="img/stemningsbilleder/stemning-3.jpg" alt="picture of guitar" />
+      </figure>
+      <div class="relative">
+        <h1 class="lg:text-h1Desktop text-h1Mobile text-light pt-32 lg:pt-72 pl-10"> Kontakt</h1>
+      </div>
+    </section>
 
     <div class="flex flex-row gap-20 place-content-center">
       <div class=" items-center">
@@ -183,14 +201,14 @@
         </label>
 
 
-        <div class="bg-blue absolute w-64 h-10 -pt-10"></div>
-        <label class="relative ml-2 mt-2 block pb-4">
-          <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-            <svg class="h-5 w-5 fill-blue" viewBox="0 0 20 20">
+        <div class="bg-blue absolute w-64 h-52 -pt-10"></div>
+        <label class="relative ml-2 mt-2 block pb-4 w-72 h-96">
+          <span class="absolute inset-y-0 left-0 flex pl-2">
+            <svg class="fill-blue" viewBox="0 0 0 0">
             </svg>
           </span>
           <input
-            class="placeholder:text-bodyDesktop placeholder:text-blue block bg-white w-full border border-blue py-2 pl-9 pr-3 focus:outline-none focus:border-blue focus:ring-blue focus:ring-1 sm:text-sm"
+            class=" h-52 placeholder:text-bodyDesktop placeholder:text-blue block bg-white w-full border border-blue pl-9 pr-3 focus:outline-none focus:border-blue focus:ring-blue focus:ring-1"
             placeholder="Din besked..." type="text" name="search" />
         </label>
 
