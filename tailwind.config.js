@@ -21,7 +21,7 @@ module.exports = {
       bodyDesktop: ["20px"],
       testimonialsDesktop: ["17px", { lineHeight: "25px" }],
 
-      h1Mobile: ["90px"],
+      h1Mobile: ["70px"],
       h2Mobile: ["25px"],
       bodyMobile: ["14px"],
       testimonialsMobile: ["14px"],
