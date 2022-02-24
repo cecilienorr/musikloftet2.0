@@ -6,6 +6,7 @@ module.exports = {
       orange: "#FBB539",
       dark: "#000929",
       light: "#F5F8FF",
+      white: "#FFFFFF",
     },
 
     fontFamily: {
@@ -17,7 +18,7 @@ module.exports = {
     fontSize: {
       h1Desktop: ["144px"],
       h2Desktop: ["39px"],
-      bodyDesktop: ["16px"],
+      bodyDesktop: ["20px"],
       testimonialsDesktop: ["17px", { lineHeight: "25px" }],
 
       h1Mobile: ["90px"],
