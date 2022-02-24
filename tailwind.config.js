@@ -18,7 +18,7 @@ module.exports = {
     fontSize: {
       h1Desktop: ["144px"],
       h2Desktop: ["39px"],
-      bodyDesktop: ["16px"],
+      bodyDesktop: ["20px"],
       testimonialsDesktop: ["17px", { lineHeight: "25px" }],
 
       h1Mobile: ["90px"],
