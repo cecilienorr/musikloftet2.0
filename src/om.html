@@ -72,10 +72,10 @@
     </p>
 
 
-    <h1 class=" text-h2Desktop text-blue text-center">Kontakt</h1>
+    <h1 class="text-h2Desktop text-blue text-center">Kontakt</h1>
 
-    <div class="flex flex-row gap-20">
-      <div>
+    <div class="flex flex-row gap-20 place-content-center">
+      <div class=" items-center">
         <ul class="basis-1/3">
           <li class="flex gap-2 py-2">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
@@ -147,6 +147,7 @@
         </ul>
       </div>
 
+      <!-- Kontakt formular -->
       <div>
         <div class="bg-blue absolute w-64 h-10 -pt-10"></div>
         <label class="relative ml-2 mt-2 block pb-4">
@@ -182,119 +183,21 @@
         </label>
 
 
+        <div class="bg-blue absolute w-64 h-10 -pt-10"></div>
+        <label class="relative ml-2 mt-2 block pb-4">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+            <svg class="h-5 w-5 fill-blue" viewBox="0 0 20 20">
+            </svg>
+          </span>
+          <input
+            class="placeholder:text-bodyDesktop placeholder:text-blue block bg-white w-full border border-blue py-2 pl-9 pr-3 focus:outline-none focus:border-blue focus:ring-blue focus:ring-1 sm:text-sm"
+            placeholder="Din besked..." type="text" name="search" />
+        </label>
 
-        <div class="flex justify-center">
-          <div class="bg-blue absolute w-64 h-10 -pt-10"></div>
-          <div class="mb-3 xl:w-96">
-
-            <label class="form-label inline-block mb-2 text-blue relative"></label>
-            <textarea class="
-                ml-2 
-                mt-2
-                relative
-                w-full
-                px-3
-                py-1.5
-                font-futura
-                text-bodyDesktop
-                text-blue
-                bg-white bg-clip-padding
-                border border-solid border-blue
-                focus:text-blue focus:bg-white focus:border-blue focus:outline-none
-              " id="exampleFormControlTextarea1" placeholder="Din besked..."></textarea>
-          </div>
-        </div>
 
 
 
       </div>
-
-
-
-      <!-- <div>
-        <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md">
-          <form>
-            <div class="form-group mb-6">
-              <input type="text" class="form-control block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
-                placeholder="Name">
-            </div>
-            <div class="form-group mb-6">
-              <input type="email" class="form-control block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
-                placeholder="Email address">
-            </div>
-            <div class="form-group mb-6">
-              <textarea class="
-                form-control
-                block
-                w-full
-                px-3
-                py-1.5
-                text-base
-                font-normal
-                text-gray-700
-                bg-white bg-clip-padding
-                border border-solid border-gray-300
-                rounded
-                transition
-                ease-in-out
-                m-0
-                focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
-              " id="exampleFormControlTextarea13" rows="3" placeholder="Message"></textarea>
-            </div>
-            <div class="form-group form-check text-center mb-6">
-              <input type="checkbox"
-                class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-                id="exampleCheck87" checked>
-              <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Send me a copy of this
-                message</label>
-            </div>
-            <button type="submit" class="
-              w-full
-              px-6
-              py-2.5
-              bg-blue-600
-              text-white
-              font-medium
-              text-xs
-              leading-tight
-              uppercase
-              rounded
-              shadow-md
-              hover:bg-blue-700 hover:shadow-lg
-              focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0
-              active:bg-blue-800 active:shadow-lg
-              transition
-              duration-150
-              ease-in-out">Send</button>
-          </form>
-        </div>
-      </div> -->
     </div>
 
 
