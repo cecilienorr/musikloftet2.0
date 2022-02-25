@@ -19,6 +19,7 @@ module.exports = {
       h2Desktop: ["39px"],
       bodyDesktop: ["16px"],
       testimonialsDesktop: ["17px", { lineHeight: "25px" }],
+      menuDesktop: ["20px"],
 
       h1Mobile: ["70px"],
       h2Mobile: ["25px"],
