@@ -28,232 +28,254 @@
 
 <body class="bg-light">
 
- 
-    <header>
-      <div class="dropdown dropdown-end flex justify-end visible md:hidden -mb-10">
-        <label tabindex="0" class="bg-light m-1 btn hover:bg-light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
-            viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-blue ">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-  
-          </svg></label>
-  
-        <ul tabindex="0" class="p-2 menu dropdown-content bg-white rounded-box w-52 text-blue ">
-          <li><a href="lokaler.html">Lokaler</a></li>
-          <li><a href="om.html">Om</a></li>
-          <li><a href="om.html#kontakt">Kontakt</a></li>
-        </ul>
-      </div>
-  
-  
-      <nav class="invisible">
-        <div class="flex place-content-between md:visible"> 
+
+  <header>
+    <!-- burgermenu -->
+    <div class="dropdown dropdown-end flex justify-end visible md:hidden -mb-10">
+      <a href="index.html"><img class="w-3/12" src="img/logoblue.svg" alt="logo"></a>
+      <label tabindex="0" class="bg-light m-1 btn hover:bg-light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+          viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-blue ">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+
+        </svg></label>
+
+      <ul tabindex="0" class="p-2 menu dropdown-content bg-white rounded-box w-52 text-blue ">
+        <li><a href="lokaler.html">Lokaler</a></li>
+        <li><a href="om.html">Om</a></li>
+        <li><a href="om.html#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+
+    <!-- nav bar -->
+    <nav class="invisible">
+      <div class="flex place-content-between md:visible">
         <figure>
           <a href="index.html"><img class="w-3/12" src="img/logoblue.svg" alt="Logo" /></a>
         </figure>
         <ul class="md:m-4 flex">
-          <li class="px-3 md:px-10 py-2 text-menuDesktop font-londrina text-blue hover:underline"><a href="lokaler.html">Lokalerne</a></li>
-          <li class="px-3 md:px-10 py-2 text-menuDesktop font-londrina text-blue hover:underline"><a href="om.html">Om</a></li>
-          <li class="px-3 md:px-10 py-2 text-menuDesktop font-londrina text-blue hover:underline"><a href="om.html#kontak">Kontakt</a></li>
+          <li class="px-3 md:px-10 py-2 text-menuDesktop font-londrina text-blue hover:underline"><a
+              href="lokaler.html">Lokalerne</a></li>
+          <li class="px-3 md:px-10 py-2 text-menuDesktop font-londrina text-blue hover:underline"><a
+              href="om.html">Om</a></li>
+          <li class="px-3 md:px-10 py-2 text-menuDesktop font-londrina text-blue hover:underline"><a
+              href="om.html#kontak">Kontakt</a></li>
         </ul>
       </div>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
-    <main class="w-full">
-      <section id="section1" class="flex flex-col">
-        <figure >
-          <img class="absolute" src="img/mellem lokaler/musikloftet-mellem-v2.jpg" alt="background pic" />
-        </figure>
-        <div class="relative"> 
+  <main class="w-full">
+    <section id="section1" class="flex flex-col">
+      <figure>
+        <img class="absolute" src="img/mellem lokaler/musikloftet-mellem-v2.jpg" alt="background pic" />
+      </figure>
+      <div class="relative">
         <h1 class="lg:text-h1Desktop text-h1Mobile text-light uppercase pt-32 lg:pt-96 pl-10">Musikloftet</h1>
       </div>
-        <div class="self-center relative text-light animate-bounce"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="70" height="70" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M11 5v11.17l-4.88-4.88c-.39-.39-1.03-.39-1.42 0a.996.996 0 0 0 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0l6.59-6.59a.996.996 0 1 0-1.41-1.41L13 16.17V5c0-.55-.45-1-1-1s-1 .45-1 1z"></path></svg></div>
+      <div class="self-center relative text-light animate-bounce"><svg xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic"
+          width="70" height="70" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+          <path fill="currentColor"
+            d="M11 5v11.17l-4.88-4.88c-.39-.39-1.03-.39-1.42 0a.996.996 0 0 0 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0l6.59-6.59a.996.996 0 1 0-1.41-1.41L13 16.17V5c0-.55-.45-1-1-1s-1 .45-1 1z">
+          </path>
+        </svg></div>
 
-        <button class="fixed uppercase rounded-none bg-light border-2 border-t-8 border-l-8  border-orange px-7 py-3 self-end mx-5 md:mt-96 mt-56 hover:text-orange"><a href="lokaler.html">Bestil lokale</a></button>
-      
-      </section>
-      <section id="section2" class="py-20 mt-24 md:mt-80 md:grid md:grid-cols-5 border-2 border-orange rounded-3xl m-16 p-10">
-        
-        <article class="md:col-span-3 md:flex md:flex-col min-w-1/2 md:pl-52 md:pr-40">
-          <h2 class="text-h2Mobile md:text-h2Desktop pb-10">Om musikloftet</h2>
-          <p class="md:text-bodyDesktop text-bodyMobile">
-            Musikloftet er 8 hyggelige øvelokaler på toppen af Prøvestenen i
-            København. Øvelokalerne ligger i en gammel industribygning, som
-            huser både kreative værksteder, atelierer og fotostudier.
-          </p>
-          <button class="uppercase rounded-none bg-light border-2 border-t-8 border-l-8  border-orange px-7 py-3 self-start md:mt-16 my-5 hover:text-orange"><a href="om.html">Læs mere</a></button>
-        </article>
-        <figure class="col-span-2 flex">
-          <img class="md:-ml-10 self-center" src="img/bygningen/musikloftet.jpeg" alt="Musikloftet" />
-        </figure>
-  
-      </section>
-      <section id="section3">
-        <figure >
-          <img class="absolute" src="img/stemning-musikloftet-2.webp" alt="Background pic" />
-        </figure>
-        <h1 class="uppercase md:pt-28 relative text-light text-h1Mobile md:text-h1Desktop md:m-10">Tjek ledige lokaler</h1>
-      </section>
-      <section id="section4" class="md:grid grid-cols-5 gap-10 md:mt-80 md:m-10 my-36">
-       
-        <figure class="flex flex-row p-2 col-span-2">
-          <div class="self-center text-light">arrow<img class="w-10 h-10" src="img/arrow-left.svg" alt="arrow"></div>
-          <img class="md:ml-32 w-9/12 p-2" src="img/lille lokale/lille lokale.jpg" alt="Lille lokale" />
-          <div class="self-center sm:hidden">
-            <img class="w-10 h-10 text-light " src="img/arrow-right.svg" alt="arrow">
-            
-          </div>
-        </figure>
-       
-        <article class="flex flex-col p-10 col-span-2">
-          <h2 class="text-h2Desktop text-blue">Det store lokale</h2>
-          <p class="text-bodyMobile md:text-bodyDesktop text-blue">
-            De tre store lokaler er mellem 33 og 36m2, så her er der plads til
-            det helt store funk-band, og så er der også en lille lounge-afdeling
-            til at tage en chiller. Et stort lokale koster 800kr./måned for tre
-            timer én dag om ugen, og bindingsperioden for leje af et lokale er
-            løbende måned + 30 dage.
-          </p>
-          <button class="uppercase rounded-none bg-light border-2 border-t-8 border-l-8  border-blue px-7 py-3 p-2 mt-4 self-start hover:text-blue"><a href="lokaler.html">Læs mere</a></button>
-        </article>
-        <div class="md:self-center invisible sm:visible"><img class="w-10 h-10" src="img/arrow-right.svg" alt="arrow"></div>
-      </section>
-      <section id="section5">
-        <figure>
-          <img class="absolute" src="img/mellem-lokale-band-3.webp" alt="Background pic" />
-        </figure>
-        <h1 class="relative text-h1Mobile md:text-h1Desktop text-light uppercase md:p-24 pb-20 p-3">Vores kunder elsker musikloftet</h1>
-      </section>
-      <section id="section6" class="md:px-20 md:py-28">
-        <h2 class="md:text-h2Desktop text-h2Mobile text-blue px-10">Testimonials</h2>
+      <button
+        class="fixed uppercase rounded-none bg-light border-2 border-t-8 border-l-8  border-orange px-7 py-3 self-end mx-5 md:mt-96 mt-56 hover:text-orange"><a
+          href="lokaler.html">Bestil lokale</a></button>
 
-       <div class="md:grid md:grid-cols-3 gap-10 p-10"> 
+    </section>
+    <section id="section2"
+      class="py-20 mt-24 md:mt-80 md:grid md:grid-cols-5 border-2 border-orange rounded-3xl m-16 p-10">
 
-        <div class="p-3"> 
-        <div class="bg-blue absolute w-80 h-40 -pt-10"></div>
-        <article class="mt-4 ml-3 relative flex flex-col p-10 border-blue border-2 bg-light self-center">
-         
-          <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">
-            "Musikloftet giver os nogle fed rammer til både at øve os og giver
-            vores band et samlingspunkt
-          </h4>
-          <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">- Sebastian, 25 år</h4>
-        </article>
+      <article class="md:col-span-3 md:flex md:flex-col min-w-1/2 md:pl-52 md:pr-40">
+        <h2 class="text-h2Mobile md:text-h2Desktop pb-10">Om musikloftet</h2>
+        <p class="md:text-bodyDesktop text-bodyMobile">
+          Musikloftet er 8 hyggelige øvelokaler på toppen af Prøvestenen i
+          København. Øvelokalerne ligger i en gammel industribygning, som
+          huser både kreative værksteder, atelierer og fotostudier.
+        </p>
+        <button
+          class="uppercase rounded-none bg-light border-2 border-t-8 border-l-8  border-orange px-7 py-3 self-start md:mt-16 my-5 hover:text-orange"><a
+            href="om.html">Læs mere</a></button>
+      </article>
+      <figure class="col-span-2 flex">
+        <img class="md:-ml-10 self-center" src="img/bygningen/musikloftet.jpeg" alt="Musikloftet" />
+      </figure>
+
+    </section>
+    <section id="section3">
+      <figure>
+        <img class="absolute" src="img/stemning-musikloftet-2.webp" alt="Background pic" />
+      </figure>
+      <h1 class="uppercase md:pt-28 relative text-light text-h1Mobile md:text-h1Desktop md:m-10">Tjek ledige lokaler
+      </h1>
+    </section>
+    <section id="section4" class="md:grid grid-cols-5 gap-10 md:mt-80 md:m-10 my-36">
+
+      <figure class="flex flex-row p-2 col-span-2">
+        <div class="self-center text-light">arrow<img class="w-10 h-10" src="img/arrow-left.svg" alt="arrow"></div>
+        <img class="md:ml-32 w-9/12 p-2" src="img/lille lokale/lille lokale.jpg" alt="Lille lokale" />
+        <div class="self-center sm:hidden">
+          <img class="w-10 h-10 text-light " src="img/arrow-right.svg" alt="arrow">
+
         </div>
-        
-      <div class="p-3"> 
-        <div class="bg-blue absolute w-80 h-40 -pt-10"> </div>
-        <article class="relative mt-4 ml-3  flex flex-col p-10 border-blue border-2 bg-light self-center">
-          <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">
-            “Det er nice man kan booke lokalerne i perioder hvor vi har mere brug for at øve end andre” 
-          </h4>
-          <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">- Johanne, 28 år</h4>
-        </article>
+      </figure>
+
+      <article class="flex flex-col p-10 col-span-2">
+        <h2 class="text-h2Desktop text-blue">Det store lokale</h2>
+        <p class="text-bodyMobile md:text-bodyDesktop text-blue">
+          De tre store lokaler er mellem 33 og 36m2, så her er der plads til
+          det helt store funk-band, og så er der også en lille lounge-afdeling
+          til at tage en chiller. Et stort lokale koster 800kr./måned for tre
+          timer én dag om ugen, og bindingsperioden for leje af et lokale er
+          løbende måned + 30 dage.
+        </p>
+        <button
+          class="uppercase rounded-none bg-light border-2 border-t-8 border-l-8  border-blue px-7 py-3 p-2 mt-4 self-start hover:text-blue"><a
+            href="lokaler.html">Læs mere</a></button>
+      </article>
+      <div class="md:self-center invisible sm:visible"><img class="w-10 h-10" src="img/arrow-right.svg" alt="arrow">
       </div>
-        <div class="p-3"> 
-        
+    </section>
+    <section id="section5">
+      <figure>
+        <img class="absolute" src="img/mellem-lokale-band-3.webp" alt="Background pic" />
+      </figure>
+      <h1 class="relative text-h1Mobile md:text-h1Desktop text-light uppercase md:p-24 pb-20 p-3">Vores kunder elsker
+        musikloftet</h1>
+    </section>
+    <section id="section6" class="md:px-20 md:py-28">
+      <h2 class="md:text-h2Desktop text-h2Mobile text-blue px-10">Testimonials</h2>
+
+      <div class="md:grid md:grid-cols-3 gap-10 p-10">
+
+        <div class="p-3">
+          <div class="bg-blue absolute w-80 h-40 -pt-10"></div>
+          <article class="mt-4 ml-3 relative flex flex-col p-10 border-blue border-2 bg-light self-center">
+
+            <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">
+              "Musikloftet giver os nogle fed rammer til både at øve os og giver
+              vores band et samlingspunkt
+            </h4>
+            <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">- Sebastian, 25 år</h4>
+          </article>
+        </div>
+
+        <div class="p-3">
           <div class="bg-blue absolute w-80 h-40 -pt-10"> </div>
-        <article class="relative mt-4 ml-3  flex flex-col p-7 border-blue border-2 bg-light self-center">
-          <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">
-            “Udover lokalet vi lejer er tagteressen også rigtig nice, og en fed mulighed for at møde andre musikere der gør brug af musikloftet.”
-          </h4>
-          <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">- Hugo, 22 år</h4>
-        </article>
-      </div>
-      
-        
-      </div>
-      </section>
-    </main>
-    
-    <footer class=" bg-blue text-light p-10">
-
-      <div class="flex w-full">
-  
-        <ul class="basis-1/3 self-center">
-          <li class="flex gap-2 py-2">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-              role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 16 16">
-              <path fill="currentColor"
-                d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6a3 3 0 0 1 0 6z"></path>
-            </svg>
-            <p>Bastionvej 2 Prøvestenen 2300 KBH S</p>
-          </li>
-          <li class="flex gap-2 py-2">
-  
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-              role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8s8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5s2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47c.65.89 1.77 1.47 2.96 1.47c1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3s3 1.34 3 3s-1.34 3-3 3z">
-              </path>
-            </svg>
-            <p>info@musikloftet.dk</p>
-          </li>
-          <li class="flex gap-2 py-2">
-  
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-              role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2Z">
-              </path>
-            </svg>
-            <p>
-              22 55 55 12</p>
-          </li>
-        </ul>
-  
-  
-        <ul class="flex self-end justify-center gap-5 basis-1/3">
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-              role="img" class="iconify iconify--ion" width="32" height="32" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 512 512">
-              <path
-                d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64h-64z"
-                fill="currentColor"></path>
-            </svg>
-          </li>
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-              role="img" class="iconify iconify--icon-park-outline" width="32" height="32"
-              preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48">
-              <g fill="none" stroke="currentColor" stroke-linejoin="round">
-                <path stroke-width="4"
-                  d="M11.063 10.414c5.544-.276 9.855-.414 12.935-.414s7.393.138 12.939.415a6 6 0 0 1 5.68 5.492c.254 3.034.38 5.706.38 8.017c0 2.339-.13 5.048-.389 8.128a6 6 0 0 1-5.587 5.483c-4.742.31-9.083.465-13.023.465c-3.94 0-8.28-.155-13.018-.465a6 6 0 0 1-5.587-5.48c-.264-3.103-.395-5.814-.395-8.131c0-2.29.128-4.963.385-8.02a6 6 0 0 1 5.68-5.49Z">
-                </path>
-                <path stroke-width="3.429"
-                  d="M21 19.61v8.796a.857.857 0 0 0 1.33.715l6.597-4.36a.857.857 0 0 0 .006-1.427l-6.598-4.436a.857.857 0 0 0-1.335.711Z">
-                </path>
-              </g>
-            </svg>
-          </li>
-          <li>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
-              role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
-              viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z">
-              </path>
-            </svg>
-          </li>
-        </ul>
-  
-        <div class="basis-1/4 invisible md:visible">
-          <img class="object-cover" src="img/maps.png" alt="">
+          <article class="relative mt-4 ml-3  flex flex-col p-10 border-blue border-2 bg-light self-center">
+            <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">
+              “Det er nice man kan booke lokalerne i perioder hvor vi har mere brug for at øve end andre”
+            </h4>
+            <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">- Johanne, 28 år</h4>
+          </article>
         </div>
-  
+        <div class="p-3">
+
+          <div class="bg-blue absolute w-80 h-40 -pt-10"> </div>
+          <article class="relative mt-4 ml-3  flex flex-col p-7 border-blue border-2 bg-light self-center">
+            <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">
+              “Udover lokalet vi lejer er tagteressen også rigtig nice, og en fed mulighed for at møde andre musikere
+              der gør brug af musikloftet.”
+            </h4>
+            <h4 class="text-testimonialsMobile md:text-testimonialsDesktop">- Hugo, 22 år</h4>
+          </article>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+  <footer class=" bg-blue text-light p-10">
+
+    <div class="flex w-full">
+
+      <ul class="basis-1/3 self-center">
+        <li class="flex gap-2 py-2">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--bi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 16 16">
+            <path fill="currentColor"
+              d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6a3 3 0 0 1 0 6z"></path>
+          </svg>
+          <p>Bastionvej 2 Prøvestenen 2300 KBH S</p>
+        </li>
+        <li class="flex gap-2 py-2">
+
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--ic" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8s8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5s2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47c.65.89 1.77 1.47 2.96 1.47c1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3s3 1.34 3 3s-1.34 3-3 3z">
+            </path>
+          </svg>
+          <p>info@musikloftet.dk</p>
+        </li>
+        <li class="flex gap-2 py-2">
+
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.28-.28.67-.36 1.02-.25c1.12.37 2.32.57 3.57.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02l-2.2 2.2Z">
+            </path>
+          </svg>
+          <p>
+            22 55 55 12</p>
+        </li>
+      </ul>
+
+
+      <ul class="flex self-end justify-center gap-5 basis-1/3">
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--ion" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 512 512">
+            <path
+              d="M288 192v-38.1c0-17.2 3.8-25.9 30.5-25.9H352V64h-55.9c-68.5 0-91.1 31.4-91.1 85.3V192h-45v64h45v192h83V256h56.4l7.6-64h-64z"
+              fill="currentColor"></path>
+          </svg>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--icon-park-outline" width="32" height="32"
+            preserveAspectRatio="xMidYMid meet" viewBox="0 0 48 48">
+            <g fill="none" stroke="currentColor" stroke-linejoin="round">
+              <path stroke-width="4"
+                d="M11.063 10.414c5.544-.276 9.855-.414 12.935-.414s7.393.138 12.939.415a6 6 0 0 1 5.68 5.492c.254 3.034.38 5.706.38 8.017c0 2.339-.13 5.048-.389 8.128a6 6 0 0 1-5.587 5.483c-4.742.31-9.083.465-13.023.465c-3.94 0-8.28-.155-13.018-.465a6 6 0 0 1-5.587-5.48c-.264-3.103-.395-5.814-.395-8.131c0-2.29.128-4.963.385-8.02a6 6 0 0 1 5.68-5.49Z">
+              </path>
+              <path stroke-width="3.429"
+                d="M21 19.61v8.796a.857.857 0 0 0 1.33.715l6.597-4.36a.857.857 0 0 0 .006-1.427l-6.598-4.436a.857.857 0 0 0-1.335.711Z">
+              </path>
+            </g>
+          </svg>
+        </li>
+        <li>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true"
+            role="img" class="iconify iconify--mdi" width="32" height="32" preserveAspectRatio="xMidYMid meet"
+            viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3Z">
+            </path>
+          </svg>
+        </li>
+      </ul>
+
+      <div class="basis-1/4 invisible md:visible">
+        <img class="object-cover" src="img/maps.png" alt="">
       </div>
 
     </div>
+
+    </div>
   </footer>
- 
+
   <script type="module" src="index.js"></script>
   <script type="module" src="index.js"></script>
 </body>
- 
+
 </body>
 
 </html>
