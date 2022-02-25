@@ -22,14 +22,30 @@
 
 <body class="bg-light">
   <header>
-    <nav class="flex place-content-between">
+    <div class="dropdown dropdown-end flex justify-end visible md:invisible ">
+      <label tabindex="0" class="bg-light m-1 btn hover:bg-light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+          viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-blue ">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+
+        </svg></label>
+
+      <ul tabindex="0" class="p-2 menu dropdown-content bg-white rounded-box w-52 text-blue">
+        <li><a href="lokaler.html">Lokaler</a></li>
+        <li><a href="om.html">Om</a></li>
+        <li><a href="om.html#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+
+
+
+    <nav class="flex place-content-between invisible md:visible">
       <figure>
         <a href="index.html"><img class="w-3/12" src="img/Musikloftet_logo3_v2.svg" alt="Logo" /></a>
       </figure>
       <ul class="m-4 flex">
         <li class="px-10 py-2"><a href="lokaler.html">Lokalerne</a></li>
         <li class="px-10 py-2"><a href="om.html">Om</a></li>
-        <li class="px-10 py-2"><a href="om.html#kontak">Kontakt</a></li>
+        <li class="px-10 py-2"><a href="om.html#kontakt">Kontakt</a></li>
       </ul>
     </nav>
   </header>
@@ -37,36 +53,53 @@
 
   <main>
 
-    <h1>Find det rette lokale</h1>
+    <section id="section1" class="flex flex-col">
+      <figure>
+        <img class="absolute" src="img/stemningsbilleder/stemning-musikloftet-2.jpg" alt="background pic" />
+      </figure>
+      <div class="relative">
+        <h1 class="lg:text-h1Desktop text-h1Mobile text-light uppercase pt-32 lg:pt-96 pl-10">lokalerne</h1>
+      </div>
+      <div class="self-center relative text-light animate-bounce"><svg xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic"
+          width="60" height="60" preserveAspectRatio="xMidYMid meet" viewBox="0 0 40 40">
+          <path fill="currentColor"
+            d="M11 5v11.17l-4.88-4.88c-.39-.39-1.03-.39-1.42 0a.996.996 0 0 0 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0l6.59-6.59a.996.996 0 1 0-1.41-1.41L13 16.17V5c0-.55-.45-1-1-1s-1 .45-1 1z">
+          </path>
+        </svg></div>
 
-    <img src="img/stemningsbilleder/stemning-musikloftet-2.jpg" alt="">
+    </section>
 
-    <div class="w-1/2 p-20">
+
+    <div class=" w:1/3 mt-30 p-10 md:w-1/2 md:mt-80 md:p-20">
       <p>Musikloftet har 8 hyggelige øvelokaler på øverste etage af en gammel industribygning på Prøvestenen i
         København.
       </p>
+      <br>
       <p>Vi tilbyder tre typer lokaler, som alle er baggearslokaler: Ét lille lokale på 10m2, fire mellem lokaler (16-22
         m2)
         og tre store lokaler (33-36m2). Dertil er der fælles toilet på gangen og et lille fælleskøkken med tagterasse,
         hvor
         man kan nyde et glas om sommeren.</p>
-      <p>Lokalerne lejes for et tidsrum på tre timer én dag om ugen - nok til en god øver. Alle lokalerne er godt
+      <p>Lokalerne lejes for et tidsrum på tre timer én dag om ugen - nok til en god øver. </p>
+      <br>
+      <p>Alle lokalerne er godt
         støjdæmpede, og er udstyret med det nødvendige for at spille. Se udstyr og ledige tider i lokalebeskrivelserne
         nedenfor.</p>
     </div>
 
-    <div class="px-20">
+    <div class="px-10 md:px-20">
 
-      <div class="flex gap-40 w-full">
-        <div class="flex flex-col basis-1/3 gap-5">
+      <div class="md:flex md:gap-40 md:w-full">
+        <div class="flex flex-col md:basis-1/3 gap-5">
           <h2 class="text-blue text-h2Desktop">Det lille lokale</h2>
           <p>Det lille lokale er ca. 10m2, og er oplagt for små bands/orkestre, der ikke har en trommeslager.</p>
           <p>Det lille lokale koster 300/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale
             er
             løbende måned + 30 dage. </p>
         </div>
-
-        <img class="grow w-1/2 h-auto justify-self-end" src="img/lille-lokale/lille lokale.jpg" alt="">
+        <img class="invisible md:visible md:grow md:w-1/2 md:h-auto md:justify-self-end"
+          src="img/lille-lokale/lille lokale.jpg" alt="">
       </div>
     </div>
 
@@ -74,7 +107,7 @@
 
     <div tabindex="0" class="collapse">
       <input type="checkbox">
-      <div class="collapse-title px-20 text-blue">
+      <div class="collapse-title px-10 md:px-20 text-blue">
 
 
         <svg
@@ -87,9 +120,9 @@
       </div>
       <div class="collapse-content bg-light">
 
-        <div class="px-20">
+        <div class="px-10 bg-light md:px-20">
 
-          <div class="flex w-full gap-5">
+          <div class="hidden md:flex md:w-full md:gap-5">
             <img class="grow w-1/4 h-auto" src="img/lille lokale/lille lokale.jpg" alt="">
             <img class="grow w-1/4 h-auto" src="img/lille lokale/lille lokale.jpg" alt="">
             <img class="grow w-1/4 h-auto" src="img/lille lokale/lille lokale.jpg" alt="">
@@ -105,12 +138,15 @@
             <li>6-spors Beckeringer mixer</li>
           </ul>
 
-          <div class=" px-20 py-10 max-w-lg">
-            <table class="table rounded-none bg-light w-1/2">
+          <div class="md:px-20 py-10 w-lg overflow-x-auto md:">
+
+
+
+            <table class="table rounded-none bg-light w-full">
               <!-- head -->
               <thead class="rounded-none">
                 <tr class="rounded-none">
-                  <th class="bg-light"></th>
+                  <th class="bg-light rounded-none"></th>
                   <th class="bg-light border-r-2 border-l-4 border-b-2 border-blue">Mandag</th>
                   <th class="bg-light border-r-2 border-b-2 border-blue">Tirsdag</th>
                   <th class="bg-light border-r-2 border-b-2 border-blue">Onsdag</th>
@@ -123,7 +159,7 @@
               <tbody>
                 <!-- row 1 -->
                 <tr class="bg-light border-blue rounded-none">
-                  <th class="bg-light border-b-2 border-l-2">kl 9-12</th>
+                  <th class="bg-light border-b-2 border-l-2 p-2 w-10">kl 9-12</th>
                   <td class="bg-light border-r-2 border-l-4 border-blue">Ledig</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -170,7 +206,7 @@
 
                 <!-- row 5 -->
                 <tr class="bg-light border-2 border-blue">
-                  <th class="bg-light border-4 border-blue">kl 21-24</th>
+                  <th class="bg-light border-r-4 border-blue">kl 21-24</th>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
@@ -183,23 +219,23 @@
             </table>
 
 
-            <button class="rounded-none mt-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
-              <p class="text-blue uppercase">Book her</p>
-            </button>
+
 
           </div>
 
-
+          <button class="rounded-none m-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
+            <p class="text-blue uppercase">Book her</p>
+          </button>
         </div>
       </div>
     </div>
 
     <!--mellem-->
 
-    <div class="px-20">
+    <div class="px-10 md:px-20">
 
-      <div class="flex gap-40 w-full border-t-2 border-orange py-10">
-        <div class="flex flex-col basis-1/3 gap-5">
+      <div class="md:flex md:gap-40 md:w-full border-t-2 border-orange py-10">
+        <div class="flex flex-col md:basis-1/3 gap-5">
           <h2 class="text-blue text-h2Desktop">Mellem lokaler</h2>
           <p>De fire mellemstore lokaler er mellem 16 og 22m2, og er oplagt for mindre rockbands med trommer - typisk
             tre-fire bandmedlemmer. </p>
@@ -207,7 +243,8 @@
             er løbende måned + 30 dage. </p>
         </div>
 
-        <img class="grow w-1/2 h-auto justify-self-end" src="img/mellem-lokaler/mellem-1.jpg" alt="">
+        <img class="invisible md:visible md:grow md:w-1/2 md:h-auto md:justify-self-end"
+          src="img/mellem-lokaler/mellem-1.jpg" alt="">
       </div>
     </div>
 
@@ -215,7 +252,7 @@
 
     <div tabindex="0" class="collapse">
       <input type="checkbox">
-      <div class="collapse-title px-20 text-blue">
+      <div class="collapse-title px-10 md:px-20 text-blue">
 
 
         <svg
@@ -228,15 +265,15 @@
       </div>
       <div class="collapse-content bg-light">
 
-        <div class="px-20">
+        <div class="px-10 bg-light md:px-20">
 
-          <div class="flex w-full gap-5">
+          <div class="hidden md:flex md:w-full md:gap-5">
             <img class="grow w-1/4 h-auto" src="img/mellem-lokaler/mellem-lokale-band-1.jpg" alt="">
-            <img class="grow w-1/4 h-auto" src="img/mellem lokaler/mellem-lokale-band-2.jpg" alt="">
-            <img class="grow w-1/4 h-auto" src="img/mellem lokaler/mellem-lokale-band-3.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/mellem-lokaler/mellem-lokale-band-2.jpg" alt="">
+            <img class="grow w-1/4 h-auto" src="img/mellem-lokaler/mellem-lokale-band-3.jpg" alt="">
           </div>
 
-          <h2 class="py-5">Lokalet er udstyret med:</h2>
+          <h2 class="py-5 text-h2Desktop">Lokalet er udstyret med:</h2>
           <ul class="list-disc">
             <li> stk. Bronco Deville 2X10 Guitarcombo</li>
             <li>Snorx AC30C2 Basscombo</li>
@@ -246,26 +283,29 @@
             <li>6-spors Beckeringer mixer</li>
           </ul>
 
-          <div class=" px-20 py-10 max-w-lg">
-            <table class="table rounded-none bg-light w-1/2">
+          <div class="md:px-20 py-10 w-lg overflow-x-auto md:">
+
+
+
+            <table class="table rounded-none bg-light w-full">
               <!-- head -->
               <thead class="rounded-none">
                 <tr class="rounded-none">
-                  <th class="bg-light border-r-2 border-blue"></th>
-                  <th class="bg-light border-r-2 border-blue">Mandag</th>
-                  <th class="bg-light border-r-2 border-blue">Tirsdag</th>
-                  <th class="bg-light border-r-2 border-blue">Onsdag</th>
-                  <th class="bg-light border-r-2 border-blue">Torsdag</th>
-                  <th class="bg-light border-r-2 border-blue">Fredag</th>
-                  <th class="bg-light border-r-2 border-blue">Lørdag</th>
-                  <th class="bg-light border-r-2 border-blue">Søndag</th>
+                  <th class="bg-light rounded-none"></th>
+                  <th class="bg-light border-r-2 border-l-4 border-b-2 border-blue">Mandag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Tirsdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Onsdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Torsdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Fredag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Lørdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Søndag</th>
                 </tr>
               </thead>
               <tbody>
                 <!-- row 1 -->
-                <tr class="bg-light">
-                  <th class="bg-light border-r-2 border-blue">kl 9-12</th>
-                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                <tr class="bg-light border-blue rounded-none">
+                  <th class="bg-light border-b-2 border-l-2 p-2 w-10">kl 9-12</th>
+                  <td class="bg-light border-r-2 border-l-4 border-blue">Ledig</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -275,8 +315,8 @@
 
                 </tr>
                 <!-- row 2 -->
-                <tr>
-                  <th class="bg-light border-r-2 border-blue">kl 12-15</th>
+                <tr class="bg-light border-2 border-blue">
+                  <th class="bg-light border-4 border-blue">kl 12-15</th>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -286,8 +326,8 @@
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                 </tr>
                 <!-- row 3 -->
-                <tr class="bg-light border-r-2 border-blue">
-                  <th class="bg-light border-r-2 border-blue">kl 15-18</th>
+                <tr class="bg-light border-2 border-blue">
+                  <th class="bg-light border-4 border-blue">kl 15-18</th>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -298,8 +338,8 @@
                 </tr>
 
                 <!-- row 4 -->
-                <tr class="bg-light">
-                  <th class="bg-light border-r-2 border-blue">kl 18-21</th>
+                <tr class="bg-light border-b-2 border-blue">
+                  <th class="bg-light border-4 border-blue">kl 18-21</th>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -310,8 +350,8 @@
                 </tr>
 
                 <!-- row 5 -->
-                <tr class="bg-light border-r-2 border-blue">
-                  <th class="bg-light border-r-2 border-blue">kl 21-24</th>
+                <tr class="bg-light border-2 border-blue">
+                  <th class="bg-light border-r-4 border-blue">kl 21-24</th>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
@@ -324,41 +364,45 @@
             </table>
 
 
-            <button class="rounded-none mt-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
-              <p class="text-blue uppercase">Book her</p>
-            </button>
+
 
           </div>
 
-
+          <button class="rounded-none m-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
+            <p class="text-blue uppercase">Book her</p>
+          </button>
         </div>
       </div>
     </div>
 
 
+
+
     <!--store -->
 
-    <div class="px-20">
 
-      <div class="flex gap-40 w-full border-t-2 border-orange py-10">
-        <div class="flex flex-col basis-1/3 gap-5">
+
+    <div class="px-10 md:px-20">
+
+      <div class="md:flex md:gap-40 md:w-full border-t-2 border-orange py-10">
+        <div class="flex flex-col md:basis-1/3 gap-5">
           <h2 class="text-blue text-h2Desktop">Store lokaler</h2>
           <p>De tre store lokaler er mellem 33 og 36m2, så her er der plads til det helt store funk-band, og så er der
             også en lille lounge-afdeling til at tage en chiller.</p>
           <p>Et stort lokale koster 800/måned for tre timer én dag om ugen, og bindingsperioden for leje af et lokale er
             løbende måned + 30 dage. </p>
-
         </div>
 
-        <img class="grow w-1/2 h-auto justify-self-end" src="img/store-lokaler/musikloftet-stort-lokale-1.jpg" alt="">
+        <img class="invisible md:visible md:grow md:w-1/2 md:h-auto md:justify-self-end"
+          src="img/store-lokaler/musikloftet-stort-lokale-1.jpg" alt="">
       </div>
     </div>
 
 
 
-    <div tabindex="0" class="collapse bg-light">
+    <div tabindex="0" class="collapse">
       <input type="checkbox">
-      <div class="collapse-title px-20 text-blue bg-light">
+      <div class="collapse-title px-10 md:px-20 text-blue">
 
 
         <svg
@@ -369,11 +413,11 @@
         </svg>
 
       </div>
-      <div class="collapse-content bg-light m-0">
+      <div class="collapse-content bg-light">
 
-        <div class="px-20 bg-light">
+        <div class="px-10 bg-light md:px-20">
 
-          <div class="flex w-full gap-5">
+          <div class="hidden md:flex md:w-full md:gap-5">
             <img class="grow w-1/4 h-auto" src="img/store-lokaler/stort-1.jpg" alt="">
             <img class="grow w-1/4 h-auto" src="img/store-lokaler/stort-2.jpg" alt="">
             <img class="grow w-1/4 h-auto" src="img/store-lokaler/stort-3.jpg" alt="">
@@ -389,26 +433,29 @@
             <li>6-spors Beckeringer mixer</li>
           </ul>
 
-          <div class=" px-20 py-10 max-w-lg">
-            <table class="table rounded-none bg-light w-1/2">
+          <div class="md:px-20 py-10 w-lg overflow-x-auto md:">
+
+
+
+            <table class="table rounded-none bg-light w-full">
               <!-- head -->
               <thead class="rounded-none">
                 <tr class="rounded-none">
-                  <th class="bg-light border-r-2 border-blue"></th>
-                  <th class="bg-light border-r-2 border-blue">Mandag</th>
-                  <th class="bg-light border-r-2 border-blue">Tirsdag</th>
-                  <th class="bg-light border-r-2 border-blue">Onsdag</th>
-                  <th class="bg-light border-r-2 border-blue">Torsdag</th>
-                  <th class="bg-light border-r-2 border-blue">Fredag</th>
-                  <th class="bg-light border-r-2 border-blue">Lørdag</th>
-                  <th class="bg-light border-r-2 border-blue">Søndag</th>
+                  <th class="bg-light rounded-none"></th>
+                  <th class="bg-light border-r-2 border-l-4 border-b-2 border-blue">Mandag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Tirsdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Onsdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Torsdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Fredag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Lørdag</th>
+                  <th class="bg-light border-r-2 border-b-2 border-blue">Søndag</th>
                 </tr>
               </thead>
               <tbody>
                 <!-- row 1 -->
-                <tr class="bg-light">
-                  <th class="bg-light border-r-2 border-blue">kl 9-12</th>
-                  <td class="bg-light border-r-2 border-blue">Ledig</td>
+                <tr class="bg-light border-blue rounded-none">
+                  <th class="bg-light border-b-2 border-l-2 p-2 w-10">kl 9-12</th>
+                  <td class="bg-light border-r-2 border-l-4 border-blue">Ledig</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -418,8 +465,8 @@
 
                 </tr>
                 <!-- row 2 -->
-                <tr>
-                  <th class="bg-light border-r-2 border-blue">kl 12-15</th>
+                <tr class="bg-light border-2 border-blue">
+                  <th class="bg-light border-4 border-blue">kl 12-15</th>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -429,8 +476,8 @@
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                 </tr>
                 <!-- row 3 -->
-                <tr class="bg-light border-r-2 border-blue">
-                  <th class="bg-light border-r-2 border-blue">kl 15-18</th>
+                <tr class="bg-light border-2 border-blue">
+                  <th class="bg-light border-4 border-blue">kl 15-18</th>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -441,8 +488,8 @@
                 </tr>
 
                 <!-- row 4 -->
-                <tr class="bg-light">
-                  <th class="bg-light border-r-2 border-blue">kl 18-21</th>
+                <tr class="bg-light border-b-2 border-blue">
+                  <th class="bg-light border-4 border-blue">kl 18-21</th>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
@@ -453,8 +500,8 @@
                 </tr>
 
                 <!-- row 5 -->
-                <tr class="bg-light border-r-2 border-blue">
-                  <th class="bg-light border-r-2 border-blue">kl 21-24</th>
+                <tr class="bg-light border-2 border-blue">
+                  <th class="bg-light border-r-4 border-blue">kl 21-24</th>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
                   <td class="bg-orange border-r-2 border-blue">Optaget</td>
                   <td class="bg-light border-r-2 border-blue">Ledig</td>
@@ -467,13 +514,13 @@
             </table>
 
 
-            <button class="rounded-none mt-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
-              <p class="text-blue uppercase">Book her</p>
-            </button>
+
 
           </div>
 
-
+          <button class="rounded-none m-10 bg-light border-2 border-t-8 border-l-8  border-blue px-10 py-5">
+            <p class="text-blue uppercase">Book her</p>
+          </button>
         </div>
       </div>
     </div>
@@ -485,7 +532,7 @@
 
   <footer class=" bg-blue text-light p-10">
 
-    <div class="flex w-full ">
+    <div class="flex w-full">
 
       <ul class="basis-1/3 self-center">
         <li class="flex gap-2 py-2">
@@ -558,7 +605,7 @@
         </li>
       </ul>
 
-      <div class="basis-1/4">
+      <div class="basis-1/4 invisible md:visible">
         <img class="object-cover" src="img/maps.png" alt="">
       </div>
 
