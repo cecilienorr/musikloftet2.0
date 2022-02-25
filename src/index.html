@@ -30,7 +30,22 @@
 
  
     <header>
-      <nav class="flex place-content-between">
+      <div class="dropdown dropdown-end flex justify-end visible md:invisible ">
+        <label tabindex="0" class="bg-light m-1 btn hover:bg-light"> <svg xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-blue ">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+  
+          </svg></label>
+  
+        <ul tabindex="0" class="p-2 menu dropdown-content bg-white rounded-box w-52 text-blue">
+          <li><a href="lokaler.html">Lokaler</a></li>
+          <li><a href="om.html">Om</a></li>
+          <li><a href="om.html#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+  
+  
+      <nav class="flex place-content-between invisible md:visible">
         <figure>
           <a href="index.html"><img class="w-3/12" src="img/logoblue.svg" alt="Logo" /></a>
         </figure>
